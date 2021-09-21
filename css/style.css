@@ -59,7 +59,7 @@ body{
 *  main  *
 ***********/
 .site_main{
-    height: 700px;
+    background-color: #000;
 }
 .container{
     height: 100%;
@@ -69,8 +69,6 @@ body{
 }
 .menu_main{
     width: 100%;
-    background-color: indigo;
-    height: 30px;
 }
 .bar_sx,
 .main_content,
@@ -80,13 +78,43 @@ body{
 .bar_sx,
 .bar_dx{
     width: 7%;
-    background-color: fuchsia;
 }
 .container .main_content{
     width: 86%;
-    background-color: greenyellow;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
-
+.menu_main{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #ffffff;
+}
+/* main_content */
+.utent{
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 10px ;
+}
+.menu_main div{
+    margin: 5px 5px;
+    padding: 4px 10px;
+    background-color: #232323;
+    border-radius: 5px;
+}
+.utent_bar{
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+}
+.utent_bar div{
+    color: white;
+    float: left;
+    background-color: rgba(0,0,0,.4);
+}
 /***********
 *  /main  *
 ***********/
