@@ -10,12 +10,9 @@
     display: table;
 }
 body{
-    background-color: aqua;
     font-family: Arial, Helvetica, sans-serif;
 }
-.visibile{
-    visibility: visibile;
-}
+
 /***********
 *  header  *
 ***********/
@@ -54,21 +51,42 @@ body{
     height: 17px;
     width: 52%;
 }
-/* effect hover */
-.name_meet:hover .cover{
-    visibility: hidden;
-}
+
 /***********
 *  /header  *
 ***********/
 /***********
 *  main  *
 ***********/
-.site_main .main_content{
-    background-color: black;
+.site_main{
     height: 700px;
-    width: 100%;
 }
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu_main{
+    width: 100%;
+    background-color: indigo;
+    height: 30px;
+}
+.bar_sx,
+.main_content,
+.bar_dx{
+    height: 100%;
+}
+.bar_sx,
+.bar_dx{
+    width: 7%;
+    background-color: fuchsia;
+}
+.container .main_content{
+    width: 86%;
+    background-color: greenyellow;
+}
+
 /***********
 *  /main  *
 ***********/
