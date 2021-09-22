@@ -159,6 +159,7 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+/* .section_left */
 .section_left{
     display: flex;
 }
@@ -170,6 +171,24 @@ body{
 .section_left #angle_up{
     padding-top: 10px;
     padding-left: 20px;
+}
+/* section_center */
+.section_center{
+    display: flex;
+}
+.section_center div{
+    margin: 8px 0;
+    padding-left: 30px;
+    text-align: center;
+}
+.section_center #plus{
+    transform: scale(.6) translateY(5px) translateX(-15px);
+}
+.section_center #double_face{
+    transform: translateX(-10px);
+}
+.section_center #angle_up{
+    padding: 15px 0 0 5px;
 }
 /***********
 *  /footer *
