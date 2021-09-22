@@ -147,7 +147,30 @@ body{
 ***********/
 /***********
 *   footer *
-***********/
+***********/fv 
+.site_footer{
+    width: 100%;
+}
+.footer_content{
+    background-color: #232527; 
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section_left{
+    display: flex;
+}
+.section_left div{
+    margin: 8px 0;
+    padding-left: 30px;
+    text-align: center;
+}
+.section_left #angle_up{
+    padding-top: 10px;
+    padding-left: 20px;
+}
 /***********
 *  /footer *
 ***********/
