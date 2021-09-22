@@ -66,15 +66,14 @@ body{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+
 }
 .menu_main{
     width: 100%;
 }
-.bar_sx,
-.main_content,
-.bar_dx{
-    height: 100%;
-}
+
 .bar_sx,
 .bar_dx{
     width: 7%;
@@ -91,6 +90,25 @@ body{
     justify-content: flex-end;
     align-items: center;
     color: #ffffff;
+}
+/* bar_sx */
+
+.bar_sx,
+.bar_dx{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.bar_dx{
+    justify-content: flex-start;
+}
+.bar_sx .triangle{
+    transform: scale(5) rotateY(180deg);
+    color: #7F7F7F;
+}
+.bar_sx p{
+    transform: translateX(-10px) translateY(40px);
+    color: white;
 }
 /* main_content */
 .utent{
@@ -114,6 +132,15 @@ body{
     color: white;
     float: left;
     background-color: rgba(0,0,0,.4);
+}
+/* bar_dx */
+.bar_dx .triangle{
+    transform: scale(5);
+    color: #7F7F7F;
+}
+.bar_dx p{
+    transform: translateX(-20px) translateY(40px);
+    color: white;
 }
 /***********
 *  /main  *
