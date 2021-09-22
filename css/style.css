@@ -190,6 +190,9 @@ body{
 .section_center #angle_up{
     padding: 15px 0 0 5px;
 }
+.section_center .share i{
+    color: #51C623;
+}
 /* section_right */
 .section_right p{
     padding: 0 15px;
